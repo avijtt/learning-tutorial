@@ -1,0 +1,190 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color:rgb(221, 210, 210);
+}
+header{
+    background-color: black;
+    color: white;
+    
+}
+.wrapper{
+    width: 80%;
+   
+}
+h1.logo_text{
+    color: wheat;
+    display: inline-block;
+    background: red;
+    padding: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background: rgb(228, 118, 118);
+}
+nav ul{
+    width: 80%;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 20px 40px;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    background: yellowgreen;
+}
+#banner{}
+#banner img{
+    height: 680px;
+    width: 100%;
+    display: block;
+}
+#about{
+    background-color:rgb(170, 153, 111);
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+#about h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align:center;
+}
+#about p{
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.center{
+    display: block;
+    text-align: center;
+
+}
+img{
+    border-radius: 8px;
+}
+.center a{
+    border: 1px solid rgb(116, 52, 52);
+    padding: 7px;
+    display: inline-block;
+}
+.box{
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    color: rgb(77, 119, 122);
+    box-sizing: border-box;
+    
+}  
+.box img{
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+footer{
+    background-color: black;
+    color: whitesmoke;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.col{
+    width: 33.3%;
+    
+}
+.foot_menu a{
+color: white;
+text-decoration: underline;
+padding: 5px 0;
+display: block;
+text-align: center;
+color: rgb(152, 189, 185);
+}
+.foot_menu a:hover{
+    color: tomato;
+}
+.foot_social{
+    display: inline-block;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+/* for contect us page*/
+#page_content{
+    overflow: hidden;
+}
+#page_content img{
+    height: 700px;
+    width:100%;
+}
+#page_content h{
+color: black;
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+padding: 20px 0;
+}
+#page_content table{
+    border: 1px solid black;
+    width: 500px;
+}
+#page_content table tr{
+    border: 1px solid black;
+}
+#page_content table td{
+    border: 1px solid black;
+    color: chocolate;
+}
+#contact h2{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 0;
+    /*for menubar*/
+}
+#contact{
+    margin: 5px 0 0 0 ;
+}
+#contact form label{
+    display: block;
+    padding: 5px 0;
+}
+#contact input,select{
+    padding: 10px 5px;
+    width: 250px;
+
+}
+#contact input[type=checkbox],input[type=radio]{
+    padding: 10px 0;
+    width: 10px;
+}
+footer{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
